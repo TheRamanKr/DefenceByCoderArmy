@@ -1,0 +1,40 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 500px  ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Justify content main axis around kaam karta hai main axis decide kon karega, aapka flex direction */
+
+/* align iten cross axis ke around kaam karta hai */
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.first{
+    background-color: orange;
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+}
+
+.second{
+    background-color: green;
+    /* flex-shrink: 4; */
+    /* flex-basis: 300px; */
+}
+
+.third{
+    background-color: red;
+    align-self: flex-start;
+}
+
+.fourth{
+    background-color: chartreuse;
+}
